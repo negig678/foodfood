@@ -1,0 +1,103 @@
+/*-- team --*/
+
+.team img {
+    background: #F44336;
+}
+.w3_agile_team_grids{
+	margin:3em 0 0;
+}
+.w3_agile_team_grid h4 {
+    font-size: 1.2em;
+    color: #404040;
+    margin: 0 0 0em;
+	letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.w3_agile_team_grid p{
+	color: #4CAF50;
+	text-transform:capitalize;
+	letter-spacing: 1px;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
+.w3_agile_team_grid:nth-child(2), .w3_agile_team_grid:nth-child(4) {
+    margin-top: 0em;
+}
+.w3_agile_team_grid ul li{
+	display:inline-block;
+	margin-right: .5em;
+}
+.w3_agile_team_grid ul li:last-child{
+	margin:0;
+}
+.w3_agile_team_grid figure {
+	overflow: hidden;
+	position: relative;
+}
+.hover14 figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.hover14 figure:hover::before,.w3_agile_team_grid:hover .hover14 figure::before{
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+.agileits_social_list li a{
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2em;
+    background: #333;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+}
+a.w3_agile_facebook:hover{
+	background:#3b5998;
+}
+a.agile_twitter:hover{
+	background:#1da1f2;
+}
+a.w3_agile_dribble:hover{
+	background:#ea4c89;
+}
+a.w3_agile_vimeo:hover{
+	background:#1ab7ea;
+}
+ul.agileits_social_list {
+    padding: 0;
+}
+.team-top {
+    border-left: 1px solid #000;
+    padding-left: 35px;
+}
+.team-tt {
+    margin-top:10px;
+    padding-top: 12px;
+    text-align: center;
+}
+.team{
+	padding:5em 0 2em;
+}
+/*-- //team --*/

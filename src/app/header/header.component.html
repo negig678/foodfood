@@ -1,0 +1,35 @@
+<header>
+	<div class="container-fluid px-lg-5">
+		<!-- nav -->
+		<nav class="py-4 d-lg-flex">
+			<div id="logo">
+				<h1> <a href="../../index.html"><span class="fa fa-align-center" aria-hidden="true"></span>Taste Yahan Hain</a></h1>
+			</div>
+			<label for="drop" class="toggle">Menu</label>
+			<input type="checkbox" id="drop" />
+			<ul class="menu mt-2 ml-auto">
+				<li class="active"><a routerLink="/home">Home</a></li>
+			
+				
+				
+				<li>
+					<!--  Drop Down -->
+					<label for="drop-2" class="toggle"><span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+					<a href="#">MENU <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+					<input type="checkbox" id="drop-2" />
+					<ul class="inner-ul">
+						<li><a routerLink="/breakfast">BREAKFAST</a></li>
+						<li><a routerLink="/lunch" >LUNCH</a></li>
+						<li><a routerLink="/dinner">DINNER</a></li>
+					</ul>
+				</li>
+				<li><a routerLink="/about">About Us</a></li>
+				<li><a routerLink="/contact" >Contact</a></li>
+				<li><a routerLink="/login1" >Login</a></li>
+				<!-- <li><a routerLink="/view" class="scroll">view</a></li> -->
+				
+			</ul>
+		</nav>
+		<!-- //nav -->
+	</div>
+</header>
